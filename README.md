@@ -20,7 +20,7 @@ This project was developed and tested under the following environment:
 
 **1. Clone the repository**
 ```bash
-git clone https://github.com/](https://github.com/)[Your-Username]/[Project-Name].git](https://github.com/TianhangXiang/FAM.git
+git clone https://github.com/TianhangXiang/FAM.git
 cd FAM
 ```
 
