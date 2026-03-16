@@ -101,15 +101,10 @@ Recall: 0.96
 
 ## 📝 TODO
 
-Future plans and improvements for this project:
-
-- [x] Implement basic training and evaluation pipeline
-- [x] Add support for [e.g., Base model name]
-- [ ] Add Multi-GPU Distributed Data Parallel (DDP) support
-- [ ] Integrate TensorBoard / Weights & Biases (W&B) for logging
-- [ ] Add more data augmentation strategies
-- [ ] Release pre-trained weights
-
+- [x] Open-source the core code for MAC and VEIN.
+- [x] Release the training and evaluation scripts.
+- [ ] Refactor the codebase to facilitate easier training and better reproducibility.
+- [ ] Release the pipeline for Qwen2-VL.
 ---
 
 ## Acknowledgement
