@@ -14,9 +14,9 @@ The official pytorch implementation of FAM: Fine-grained Alignment Matters in Mu
 ## 🛠️ Environment Preparation
 
 This project was developed and tested under the following environment:
-* **OS:** [Ubuntu 20.04]
-* **Python:** [3.10]
-* **CUDA:** [11.8]
+* **OS:** Ubuntu 20.04
+* **Python:** 3.10
+* **CUDA:** 11.8
 
 Since our codebase is built upon VLM2Vec, setting up the environment is very straightforward.
 
@@ -44,10 +44,13 @@ pip install -r requirements.txt
 
 ## 📦 Dataset Preparation
 
-**1. Download the dataset**
+**1.Download the pretrain data for MAC (LLAVA)**
+
+
+**2.Download the MMEB data**
 Please download the required dataset from [Link/Source].
 
-**2. Directory Structure**
+**3.Organize the training data**
 Extract and place the dataset into the `data/` directory. The expected structure is as follows:
 
 ```text
@@ -108,6 +111,7 @@ Recall: 0.96
 
 - [x] Open-source the core code for MAC and VEIN.
 - [x] Release the training and evaluation scripts.
+- [ ] Release the data preprocess code.
 - [ ] Refactor the codebase to facilitate easier training and better reproducibility.
 - [ ] Release the pipeline for Qwen2-VL.
 ---
