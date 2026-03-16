@@ -111,4 +111,6 @@ Future plans and improvements for this project:
 - [ ] Release pre-trained weights
 
 ---
-*Feel free to open an Issue or submit a Pull Request!*
+
+## Acknowledgement
+Our code is mainly based on [VLM2Vec](https://github.com/TIGER-AI-Lab/VLM2Vec), thanks for their great contribution!
