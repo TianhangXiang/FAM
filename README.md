@@ -1,4 +1,4 @@
-# [Project Name]
+# [FAM]
 
 The official pytorch implementation of FAM: Fine-grained Alignment Matters in Multimodal Embedding Learning with Large Vision-Language Models
 
