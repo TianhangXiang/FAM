@@ -29,14 +29,13 @@ conda activate [your_vlm2vec_env_name]
 
 ### Option 2: Install from Scratch
 If you are setting this up for the first time, please follow the steps below to create a new environment:
-
+```bash
 git clone [https://github.com/TianhangXiang/FAM.git](https://github.com/TianhangXiang/FAM.git)
 cd FAM
-
 conda create -n FAM python=3.10 -y
 conda activate FAM
-
 pip install -r requirements.txt
+```
 
 
 ---
