@@ -113,7 +113,7 @@ Recall: 0.96
 - [x] Release the training and evaluation scripts.
 - [ ] Release the data preprocess code.
 - [ ] Refactor the codebase to facilitate easier training and better reproducibility.
-- [ ] Release the pipeline for Qwen2-VL.
+- [ ] Release the pipeline for Qwen serises.
 ---
 
 ## Acknowledgement
