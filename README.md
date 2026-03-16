@@ -15,25 +15,29 @@ The official pytorch implementation of FAM: Fine-grained Alignment Matters in Mu
 
 This project was developed and tested under the following environment:
 * **OS:** [e.g., Ubuntu 20.04]
-* **Python:** [e.g., 3.8+]
-* **CUDA:** [e.g., 11.6]
+* **Python:** [e.g., 3.10]
+* **CUDA:** [e.g., 11.8 / 12.1]
 
-**1. Clone the repository**
+Since our codebase is built upon VLM2Vec, setting up the environment is very straightforward.
+
+### Option 1: Reuse VLM2Vec Environment (Fastest)
+If you have already configured the environment for [VLM2Vec](https://github.com/TIGER-AI-Lab/VLM2Vec), you can seamlessly reuse it without installing any extra packages. Simply activate your existing environment:
+
 ```bash
-git clone https://github.com/TianhangXiang/FAM.git
+conda activate [your_vlm2vec_env_name]
+
+
+### Option 2: Install from Scratch
+If you are setting this up for the first time, please follow the steps below to create a new environment:
+
+git clone [https://github.com/TianhangXiang/FAM.git](https://github.com/TianhangXiang/FAM.git)
 cd FAM
-```
 
-**2. Create a virtual environment (Recommended)**
-```bash
-conda create -n myenv python=3.8 -y
-conda activate myenv
-```
+conda create -n FAM python=3.10 -y
+conda activate FAM
 
-**3. Install dependencies**
-```bash
 pip install -r requirements.txt
-```
+
 
 ---
 
