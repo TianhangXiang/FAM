@@ -32,8 +32,10 @@ If you are setting this up for the first time, please follow the steps below to 
 ```bash
 git clone [https://github.com/TianhangXiang/FAM.git](https://github.com/TianhangXiang/FAM.git)
 cd FAM
+
 conda create -n FAM python=3.10 -y
 conda activate FAM
+
 pip install -r requirements.txt
 ```
 
