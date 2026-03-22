@@ -63,48 +63,19 @@ data/
 └── test/
 ```
 
-**3. Data Preprocessing (Optional)**
-If extra data cleaning or formatting is needed, run the following command:
-```bash
-python scripts/preprocess.py --data_dir ./data --output_dir ./data_processed
-```
+**3. Data Preprocessing**
+[TODO]
 
 ---
 
 ## 🚀 Training
-
-Once the environment and dataset are ready, you can start training the model. 
-
-**Basic Training Command:**
-```bash
-python train.py --config configs/default.yaml
-```
-
-**Common Arguments:**
-* `--batch_size`: Batch size (default: 32)
-* `--epochs`: Number of training epochs (default: 100)
-* `--lr`: Learning rate (default: 1e-4)
-* `--resume`: Path to a checkpoint to resume training
-
-Logs and model weights will be automatically saved in the `output/checkpoints/` directory during training.
+[TODO]
 
 ---
 
 ## 📊 Evaluation
 
-Use the trained weights to evaluate the model on the test set and get the final metrics.
-
-**Evaluation Command:**
-```bash
-python eval.py --weights output/checkpoints/best_model.pth --data_dir ./data/test
-```
-
-**Expected Output Example:**
-```text
-Test Accuracy: 95.4%
-Precision: 0.94
-Recall: 0.96
-```
+[TODO]
 
 ---
 
