@@ -82,8 +82,9 @@ data/
 ## 📝 TODO
 
 - [x] Open-source the core code for MAC and VEIN.
-- [x] Release the training and evaluation scripts.
+- [x] Release the demo training scripts.
 - [ ] Release the data preprocess code.
+- [ ] Release the full training pipeline
 - [ ] Refactor the codebase to facilitate easier training and better reproducibility.
 - [ ] Release the pipeline for Qwen serises.
 ---
