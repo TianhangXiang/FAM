@@ -56,11 +56,10 @@ Extract and place the dataset into the `data/` directory. The expected structure
 
 ```text
 data/
-├── train/
-│   ├── class1/
-│   └── class2/
-├── val/
-└── test/
+├── MMEB/
+│   ├── images/
+│   └── train_jsonl/
+├── LLAVA/
 ```
 
 **3. Data Preprocessing**
