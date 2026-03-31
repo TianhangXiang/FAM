@@ -40,7 +40,6 @@ conda activate FAM
 pip install -r requirements.txt
 ```
 
-
 ---
 
 ## 📦 Dataset Preparation
@@ -59,7 +58,7 @@ data/
 ├── MMEB/
 │   ├── images/
 │   └── train_jsonl/
-├── LLAVA/
+├── GCC_images/
 ```
 
 **3. Data Preprocessing**
