@@ -68,13 +68,12 @@ data/
 ---
 
 ## 🚀 Training
-[TODO]
+Refer to the run.sh
 
 ---
 
 ## 📊 Evaluation
-
-[TODO]
+Refer to the run.sh
 
 ---
 
