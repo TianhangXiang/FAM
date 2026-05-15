@@ -19,6 +19,7 @@ This project was developed and tested under the following environment:
 * **CUDA:** 11.8
 * **Pytorc:** 2.1.1
 * **transformers:** 4.49.0
+  
 Since our codebase is built upon VLM2Vec, setting up the environment is very straightforward.
 
 ### Option 1: Reuse VLM2Vec Environment (Fastest)
