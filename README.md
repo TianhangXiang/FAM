@@ -73,7 +73,7 @@ Refer to the run.sh
 ---
 
 ## 📊 Evaluation
-Refer to the run.sh
+Refer to the eva.sh, make sure that the pretrain_dir should be set correctly
 
 ---
 
