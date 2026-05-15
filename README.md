@@ -68,12 +68,12 @@ data/
 ---
 
 ## 🚀 Training
-Refer to the run.sh
+Refer to the run.sh, MAC contains two training stage.
 
 ---
 
 ## 📊 Evaluation
-Refer to the eva.sh, make sure that the pretrain_dir should be set correctly
+Refer to the eva.sh, make sure that the pretrain_dir should be set correctly.
 
 ---
 
