@@ -61,11 +61,6 @@ data/
 │   └── train_jsonl/
 ├── GCC_images/
 ```
-
-**3. Data Preprocessing**
-
-[TODO]
-
 ---
 
 ## 🚀 Training
